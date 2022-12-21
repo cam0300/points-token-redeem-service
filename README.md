@@ -3,19 +3,27 @@
 Points and Revenue Tokens
 This Rust program allows users to earn points and exchange them for tokens that have a claim on future revenues. The program includes the following functions:
 
-
 award_points: 
   Awards points to a user.
+  
 exchange_points_for_revenue_token: 
   Exchanges points for a revenue token. The user must have enough points to exchange, and the exchange rate is specified as an argument.
+  
 issue_revenue_tokens: 
   Automatically issues revenue tokens to users who have earned enough points.
   
   
-Structs
+  
+  
+# Structs
+
 The program defines the following structs:
-User: Represents a user with a number of points.
-Token: Represents a token with a claim on future revenues.
+
+User: 
+  Represents a user with a number of points.
+  
+Token: 
+  Represents a token with a claim on future revenues.
 
 
 Example:
