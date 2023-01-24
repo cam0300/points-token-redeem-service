@@ -1,6 +1,7 @@
 # points-token-redeem-service
 
 Points and Revenue Tokens
+
 This Rust program allows users to earn points and exchange them for tokens that have a claim on future revenues. The program includes the following functions:
 
 award_points: 
